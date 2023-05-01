@@ -1,0 +1,374 @@
+.wrapper {
+  width: 100%;
+  max-height: 477px;
+}
+
+.wrapper .radiobtn {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  margin: 12px auto 22px auto;
+  font-size: 1.25rem;
+  /* 20px */
+  /* line-height: 1.75rem; */
+  /* 28px */
+}
+
+.wrapper .radiobtn .btn {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper .radiobtn .btn input {
+  width: 22px;
+  height: 22px;
+}
+
+.wrapper .radiobtn .btn label {
+  font-weight: 600;
+  margin-left: 8px;
+}
+
+.outer_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #e8e8e8;
+  margin: 12px;
+  border-radius: 8px;
+  padding: 0 15px;
+}
+
+.outer_box .big-innerbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 4px;
+}
+
+.big-innerbox .img-box {
+  width: 36px;
+  background-color: #2160ce;
+  border-radius: 50%;
+  padding: 10px 0;
+}
+
+.big-innerbox h4 {
+  color: #787878;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 5px 0;
+}
+
+.big-innerbox p {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.outer_box .sm-innerbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sm-innerbox h4 {
+  color: #b8b8b8;
+  font-size: 14px;
+  margin: 2px 0;
+}
+
+.sm-innerbox p {
+  color: #e8e8e8;
+  font-size: 24px;
+  margin: 0;
+  font-weight: lighter;
+}
+
+.sm-innerbox p:nth-of-type(1) {
+  margin-top: 15px !important;
+  margin-bottom: 5px !important;
+}
+
+.sm-innerbox p:nth-of-type(2) {
+  margin-bottom: 15px !important;
+  margin-top: 5px !important;
+}
+
+.form-wrapper {
+  margin: 12px;
+  text-align: start;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: 800;
+  margin: 0;
+  text-align: start;
+  margin: 15px;
+}
+
+ .price span {
+  color: #9c9c9c;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input-wrapper-margin {
+  margin-top: 10px;
+}
+
+.input-wrapper .loan-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 0;
+}
+
+.input-wrapper .loan-heading label {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.input-wrapper .loan-heading .toggle-btn {
+  width: 48px;
+  height: 23px;
+  display: flex;
+  color: #a7a7a7;
+  background-color: #ededed;
+  border: 1px solid #ededed;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3px;
+  font-size: 12px;
+  border-radius: 100px;
+}
+
+.input-wrapper .loan-heading .toggle-btn div:nth-of-type(1) {
+  padding-left: 7px;
+}
+
+.input-wrapper .loan-heading .toggle-btn div:nth-of-type(2) {
+  height: 18px;
+  width: 18px;
+  background-color: #2160ce;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 3px;
+}
+
+.input-wrapper .input-loan {
+  border: 1px solid #e8e8e8;
+  outline: #2160ce;
+  color: #ababab;
+  padding: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.input-wrapper .perchase {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.input-wrapper fieldset {
+  border: 1px solid #2160ce;
+  height: 40px;
+  margin-top: 10px;
+  padding: 7px 9px 9px 9px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.input-wrapper fieldset legend {
+  color: #2160ce;
+  font-size: 14px;
+}
+
+.input-date-wrapper img {
+  width: 14px;
+  height: 16px;
+  margin-left: 10px;
+}
+
+.input-date-wrapper input {
+  outline: none;
+  color: #ababab;
+  background-color: transparent;
+  border: none;
+  font-weight: 600;
+  border-radius: 10px;
+  font-size: 16px;
+  padding-left: 16px;
+  position: absolute;
+  top: 5px;
+  left: 30px;
+}
+
+.react-datepicker-wrapper {
+  width: unset !important;
+  position: absolute;
+}
+
+.react-datepicker-wrapper input {
+  width: 375px;
+  height: 45px;
+  margin-top: -10px;
+  background: transparent;
+  outline: none;
+  padding-left: 46px;
+  /* border: 1px solid red; */
+  position: relative;
+  top: -5px;
+  left: -34px;
+  z-index: 2;
+}
+
+.range-wrapper {
+  margin-top: 10px;
+}
+
+.range-wrapper .range-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* h4{
+    margin: 0;
+} */
+
+.range-wrapper .range-head h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 12px 0;
+}
+
+.range-wrapper .range-head .head-right {
+  background-color: #fafbff;
+  border: 1px solid #dee4ff;
+  width: 95px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.range-wrapper .range-head .head-right span:nth-of-type(1) {
+  color: #86888f;
+  font-weight: lighter;
+}
+
+.range-wrapper .range-head .head-right span:nth-of-type(2) {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #86888f;
+  font-weight: lighter;
+}
+
+.range-wrapper input {
+  width: 100%;
+}
+
+.range-wrapper .range-foot {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.range-wrapper p {
+  margin: 5px 0 0 0;
+  font-size: 16px;
+  color: #9c9c9c;
+  font-weight: 600;
+}
+
+.input-wrapper fieldset {
+  border: 1px solid #2160ce;
+  height: 40px;
+  margin-top: 10px;
+  padding: 7px 9px 9px 9px;
+  border-radius: 10px;
+  width: 444px;
+  /* z-index: 22; */
+  position: absolute;
+}
+
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+  width: 438px;
+  top: -8px;
+}
+
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 24.5px 14px !important;
+  padding-right: 0;
+  order: 2;
+}
+
+.css-1laqsz7-MuiInputAdornment-root {
+  order: 1 !important;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: -10px 24px 0 24px; */
+  margin-top: 20px;
+  padding-bottom: 30px;
+}
+
+.footer .btn {
+  width: 295px;
+  height: 46px;
+  background-color: #54a9e8;
+  border-radius: 100px;
+  color: #ffff;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 12px 0;
+  outline: none;
+  border: none;
+}
+
+.footer .setting a {
+  display: flex;
+  align-items: center;
+  color: #54a9e8;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.footer .setting a img {
+  width: 16px;
+  height: 16px;
+  margin-left: 8px;
+}
+
+.css-1bn53lx {
+  width: 438px;
+  top: -8px;
+}
+
+.css-1uvydh2 {
+  padding: 24.5px 14px !important;
+  padding-right: 0;
+  order: 2;
+}
+
+.css-1nvf7g0{
+  order: 1 !important;
+}
